@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7030cc;
+    height: 49rem;
+    width: 151.9rem;
+    position: relative;
+    z-index: -1;
+    border-radius: 2rem 2rem 0 0;   
+}
+
+.nav-items i{
+    display: none;
+}
+.logo{
+    width: 10rem;
+    margin: 0 5rem;
+}
+.navigation,.logo{
+    margin-top: 5rem;
+}
+.nav-items{
+   display: flex;
+   gap: 2rem;
+}
+.list{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+ul li{
+    list-style: none;
+    gap: 2rem;
+    color: #ffff;
+    font-size: 1.7rem;
+}
+ul li:first-child{
+    color:#32c3f1;
+}
+
+.menu{
+    margin-top: 3rem;
+    display: inline-block;
+    margin-right: 5rem;
+}
+.line{
+    height: .3rem;
+    width: 5rem;
+    background-color: #faeaeb;
+    margin: 1.5rem 0;
+}
+.trial-btn{
+    background-color: #32c3f1;
+    color: #ffff;
+    width: 9rem;
+    height: 4rem;
+    border: none;
+}
+.text-img{
+    display: flex;
+    gap: 50rem;
+    z-index: 3;
+    position: absolute;
+    margin-top: -41rem;
+}
+.text{
+    margin-top: 5rem;
+    margin-left: 13.5rem;
+}
+.text h1,p {
+    color: #ffff;
+    font-size: 1.7rem;
+}
+.img{
+    width: 48rem;
+}
+
+.saas{
+    display: flex;
+    margin-top: 5rem;
+   justify-content: space-around;
+}
+.top{
+    width: 48rem;
+    height: 40rem;
+}
+.saas-text{
+    margin-top: 8rem;
+}
+.saas-text h2{
+    font-size: 1.9rem;
+}
+.saas-img img{
+    width: 48rem;
+}
+.share-img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+}
+.saas-text1 p{
+    font-size: 1.4rem;
+    color: black;
+}
+.share{
+    display: flex;
+}
+.share span{
+    margin-top: 2rem;
+}
+
+.share span h3{
+    font-size: 1.5rem;
+}
+
+/* ------------------ Feautures -------------------*/
+.features h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.feature-card{
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    padding: 0 23rem;
+    margin: 0 0;
+}
+
+.feature-item{
+    width: 20rem;
+    height: 30rem;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0, 0.2);
+    border-radius: 1.5rem;
+}
+
+.feauturs-img1{
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem 4rem;
+    border-radius: 50%;
+    background-color: #faeaeb;
+    
+}
+.feauturs-img2{
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem 4rem;
+    border-radius: 50%;
+    background-color: #fbf0ee;
+    
+}
+.feauturs-img3{
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem 4rem;
+    border-radius: 50%;
+    background-color:  #e9f4f6;
+    
+}
+.feauturs-img4{
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem 4rem;
+    border-radius: 50%;
+    background-color: #f2e7f5;
+    
+}
+.feauturs-img1 img, .feauturs-img2 img,.feauturs-img3 img,.feauturs-img4 img{
+    width: 6rem;
+    height: 7rem;
+    margin: 1.3rem 2rem;
+}
+
+.txt-head1{
+    background-color: #7030cc;
+    height: 9.8rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: #ffff;
+}
+
+.txt-head1 h3,.txt-head h3{
+    font-size: 1.8rem;
+}
+.txt-head1 span p{
+    font-size: 1.4rem;
+}
+
+.txt-head,.txt-head span p{
+    text-align: center;
+    color: black;
+    font-size: 1.4rem;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 50%;
+    }
+    .fa{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 39%;
+    }
+    .menu{
+        display: none;
+    }
+    nav{
+       
+        height: 49rem;
+        width: 119.8rem;
+         
+    }
+
+    .trial-btn{
+        
+        width: 10rem;
+        height: 5rem;
+        
+    }
+}
+
+@media(max-width:345px){
+    html{
+        font-size: 31%;
+    }
+    .list{
+        display: none;
+    }
+    .nav-items i{
+        display: block;
+        margin-right: 4rem;
+    }
+
+    nav{
+        height: 59rem;
+        width: 65.3rem;
+    }
+    .trial-btn {
+       display: none;
+    }
+    .feature-card{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0 10rem;
+    }
+
+    .text-img{
+        flex-wrap: wrap;
+        display: flex;
+    }
+.text{
+    gap: 10rem;
+    position: absolute;
+    right: -15rem;
+    top: 10rem;
+}
+
+.text h1{
+    font-size: 3rem;
+}
+.text p{
+    font-size: 1.7rem;
+}
+    .text-img .img img{
+        width: 37rem;
+        position: absolute;
+        top:-2rem;
+
+    }
+    .saas-text,.saas{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .saas-img img{
+        margin-left: 7rem;
+    }
+
+    .saas-text{
+        margin-left: 9rem;
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .saas-text h2{
+        font-size: 3rem;
+    }
+    .saas-text1 p{
+        font-size: 2rem;
+    }
+}
