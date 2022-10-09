@@ -9,11 +9,10 @@
 ## Preview
 ![See Preview](https://github.com/Shyam-Pandey/Project_13/blob/master/images/screenshot.png?raw=true)
 ## Live Link
-[Link](https://host-your-own.netlify.app)
+[Visit Website]()
 
-## Author and Contact
+## Author.
 - [Shyam Pandey](https://github.com/Shyam-Pandey)
-    - [Coder Community]()
 
 ## Features
 - It is single page Website with responsiveness.
